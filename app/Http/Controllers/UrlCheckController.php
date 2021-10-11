@@ -14,7 +14,7 @@ class UrlCheckController extends Controller
 {
     public const CHECK_TIMEOUT_SECOND = 3;
 
-    private static String $tableName = 'url_checks';
+    private static string $tableName = 'url_checks';
 
     public static function getTableName(): string
     {

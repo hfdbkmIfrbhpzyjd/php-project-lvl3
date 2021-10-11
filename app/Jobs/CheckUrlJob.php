@@ -30,8 +30,8 @@ class CheckUrlJob implements ShouldQueue
      */
     public $tries = 3;
 
-    public String $urlName;
-    public Int $urlCheckId;
+    public string $urlName;
+    public int $urlCheckId;
     /**
      * Create a new job instance.
      *

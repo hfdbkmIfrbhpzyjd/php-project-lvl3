@@ -10,7 +10,7 @@ use Illuminate\Support\Facades\Log;
 
 class UrlController extends Controller
 {
-    private static String $tableName = 'urls';
+    private static string $tableName = 'urls';
 
     public static function getTableName(): string
     {
