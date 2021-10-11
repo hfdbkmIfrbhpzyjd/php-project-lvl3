@@ -27,7 +27,7 @@ jobs:
         tools: prestessimo
 
     - name: Composer Install
-      run: make install
+      run: make setup
 
     - name: check linter 
       run: make lint
