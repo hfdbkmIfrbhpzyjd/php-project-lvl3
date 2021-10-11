@@ -4,6 +4,9 @@ setup:
 	php artisan key:gen --ansi
 	npm install
 
+install:
+	composer install
+
 watch:
 	npm run watch
 
